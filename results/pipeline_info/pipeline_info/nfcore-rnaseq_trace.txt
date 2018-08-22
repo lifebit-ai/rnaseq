@@ -1,0 +1,14 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	rss	vmem	rchar	wchar
+12	59/412d57	-	workflow_summary_mqc	COMPLETED	-	2018-08-21 20:11:21.111	504ms	447ms	-	-	-	-	-
+11	e9/937173	-	get_software_versions	ABORTED	-	2018-08-21 20:11:21.293	-	-	-	-	-	-	-
+4	92/f48025	-	fastqc (SRR4238355)	ABORTED	-	2018-08-21 20:11:21.457	-	-	-	-	-	-	-
+13	a3/23c92f	-	output_documentation	ABORTED	-	2018-08-21 20:11:21.478	-	-	-	-	-	-	-
+2	8c/0e978d	-	makeBED12 (genes.gtf)	ABORTED	-	2018-08-21 20:11:21.498	-	-	-	-	-	-	-
+3	21/3fce24	-	fastqc (SRR4238351)	ABORTED	-	2018-08-21 20:11:21.560	-	-	-	-	-	-	-
+7	d7/8fdebf	-	trim_galore (SRR4238351)	ABORTED	-	2018-08-21 20:11:21.625	-	-	-	-	-	-	-
+10	d0/14eb13	-	trim_galore (SRR4238379)	ABORTED	-	2018-08-21 20:11:21.640	-	-	-	-	-	-	-
+6	45/9a85e4	-	fastqc (SRR4238379)	ABORTED	-	2018-08-21 20:11:21.689	-	-	-	-	-	-	-
+1	2e/dfd52f	-	makeSTARindex (/nf-core/test-datasets/raw/rnaseq/reference/genome.fa)	ABORTED	-	2018-08-21 20:11:21.728	-	-	-	-	-	-	-
+5	99/ad4cf6	-	fastqc (SRR4238359)	ABORTED	-	2018-08-21 20:11:21.774	-	-	-	-	-	-	-
+9	1c/157137	-	trim_galore (SRR4238359)	ABORTED	-	2018-08-21 20:11:21.827	-	-	-	-	-	-	-
+8	d2/6d4e9c	-	trim_galore (SRR4238355)	ABORTED	-	2018-08-21 20:11:22.788	-	-	-	-	-	-	-

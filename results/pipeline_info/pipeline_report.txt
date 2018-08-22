@@ -1,0 +1,74 @@
+========================================
+ nfcore/rnaseq: version 1.0dev
+========================================
+Run Name: nasty_goldwasser
+
+####################################################
+## nfcore/rnaseq execution completed unsuccessfully! ##
+####################################################
+The exit status of the task that caused the workflow execution to fail was: null.
+The full error message was:
+
+SIGINT
+
+
+
+####################################################
+## nfcore/rnaseq execution completed unsuccessfully! ##
+####################################################
+The exit status of the task that caused the workflow execution to fail was: null.
+The full error message was:
+
+SIGINT
+
+
+
+
+
+The workflow was completed at Tue Aug 21 20:11:37 BST 2018 (duration: 21.5s)
+
+The command used to launch the workflow was as follows:
+
+  nextflow run main.nf -profile test -with-docker -w s3://workflow-workdir/lalal -process.executor ignite
+
+
+
+Pipeline Configuration:
+-----------------------
+ - Run Name: nasty_goldwasser
+ - Reads: data/*{1,2}.fastq.gz
+ - Data Type: Single-End
+ - Genome: false
+ - Strandedness: None
+ - Trim R1: 0
+ - Trim R2: 0
+ - Trim 3' R1: 0
+ - Trim 3' R2: 0
+ - Aligner: STAR
+ - Fasta Ref: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/genome.fa
+ - GTF Annotation: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/genes.gtf
+ - Save Reference: No
+ - Save Trimmed: No
+ - Save Intermeds: No
+ - Max Memory: 6 GB
+ - Max CPUs: 2
+ - Max Time: 2d
+ - Output dir: ./results
+ - Working dir: /workflow-workdir/lalal
+ - Container: nfcore/rnaseq:latest
+ - Current home: /Users/pprieto
+ - Current user: pprieto
+ - Current path: /Users/pprieto/Tmp/rnaseq-phil-error
+ - Script dir: /Users/pprieto/Tmp/rnaseq-phil-error
+ - Config Profile: test
+ - Date Started: Tue Aug 21 20:11:16 BST 2018
+ - Date Completed: Tue Aug 21 20:11:37 BST 2018
+ - Pipeline script file path: /Users/pprieto/Tmp/rnaseq-phil-error/main.nf
+ - Pipeline script hash ID: 53a19650f5850bce9ab91608b72c7a1b
+ - Docker image: nfcore/rnaseq:latest
+
+
+--
+nfcore/rnaseq is a bioinformatics best-practice analysis pipeline used for RNA sequencing data at the National Genomics Infrastructure at SciLifeLab Stockholm, Sweden.
+The pipeline uses Nextflow, a bioinformatics workflow tool. It pre-processes raw data from FastQ inputs, aligns the reads and performs extensive quality-control on the results.
+For more information, please see the pipeline homepage: https://github.com/nf-core/rnaseq
